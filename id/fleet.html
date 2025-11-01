@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jelajahi armada kendaraan kami untuk disewa di Batam - Bintan. Mobil kompak, MPV, van, dan bus tersedia dengan sopir profesional."
+    <title>Armada Reborn Transport</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-10 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Beranda</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Tentang Kami</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Layanan</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Syarat & Ketentuan</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Galeri</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Kontak</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Beranda</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Tentang Kami</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Layanan</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Syarat & Ketentuan</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Galeri</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Kontak</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_1.jpeg');"></div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">Armada Kami</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">Kendaraan yang terawat dengan baik untuk semua kebutuhan transportasi Anda di Batam - Bintan</p>
+        </div>
+    </section>
+
+    <!-- Fleet Introduction -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Kendaraan Berkualitas yang Dapat Anda Percayai</h2>
+                <p class="text-gray-600 text-lg">Armada kami terdiri dari kendaraan yang dirawat secara rutin dan menjalani pemeriksaan keselamatan yang ketat. Setiap kendaraan dibersihkan dan disanitasi setelah setiap penggunaan untuk memastikan kenyamanan dan keselamatan Anda.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Perawatan Rutin</h3>
+                    <p class="text-gray-600">Semua kendaraan menjalani perawatan bulanan dan pemeriksaan keselamatan.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Keselamatan Utama</h3>
+                    <p class="text-gray-600">Kendaraan yang diasuransikan sepenuhnya dengan peralatan keselamatan yang komprehensif.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bersih & Nyaman</h3>
+                    <p class="text-gray-600">Interior dibersihkan dan disanitasi setelah setiap perjalanan untuk kesehatan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Gallery -->
+    <section id="fleet" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-center mb-12 text-gray-800">Jelajahi Kendaraan Kami</h2>
+            
+            <!-- Compact Cars -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Mobil Kompak</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Sempurna untuk wisatawan solo, pasangan, atau keluarga kecil. Hemat bahan bakar dan mudah dimanuver.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_with_tourist_1.jpeg');"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">Toyota Avanza / Daihatsu Xenia</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>6-7</strong> Penumpang</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>3-4</strong> Tas Besar</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Bahan Bakar Sudah Termasuk</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parkir Sudah Termasuk</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal untuk: Keluarga kecil, antar jemput bandara, tur kota. Kendaraan yang andal ini menawarkan tempat duduk yang nyaman dan ruang bagasi yang cukup untuk perjalanan singkat.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">Mulai dari IDR 450.000/hari</p>
+                            <p class="text-sm text-gray-500">*Harga dapat bervariasi berdasarkan jarak dan durasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MPVs -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Kendaraan Multi-Purpose (MPV)</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Luas dan nyaman untuk kelompok yang lebih besar atau keluarga dengan bagasi ekstra.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">Toyota Innova / Mitsubishi Xpander</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>7-8</strong> Penumpang</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>5-6</strong> Tas Besar</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Bahan Bakar Sudah Termasuk</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parkir Sudah Termasuk</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal untuk: Keluarga berukuran sedang, kelompok bisnis, tur wisata. Ruang kaki ekstra dan kapasitas bagasi membuat kendaraan ini sempurna untuk perjalanan yang lebih lama.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">Mulai dari IDR 650.000/hari</p>
+                            <p class="text-sm text-gray-500">*Harga dapat bervariasi berdasarkan jarak dan durasi</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Vans/Hiace -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Van - Pilihan Premium Kami</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Sempurna untuk kelompok yang bepergian bersama dengan banyak ruang untuk penumpang dan bagasi. Van kami adalah kendaraan paling populer untuk perjalanan kelompok yang nyaman.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-5-compressed.jpg');"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">Van Premium - Kendaraan Unggulan Kami</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>15-18</strong> Penumpang</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>10+</strong> Tas Besar</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Bahan Bakar Sudah Termasuk</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parkir Sudah Termasuk</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Kendaraan unggulan kami menawarkan keseimbangan sempurna antara kenyamanan, ruang, dan keandalan untuk perjalanan kelompok. Dengan pendingin udara, tempat duduk yang nyaman, dan ruang bagasi yang cukup, ini adalah pilihan ideal untuk antar jemput bandara, acara perusahaan, dan tur wisata. <strong>Pilihan paling populer untuk kelompok yang mengunjungi Batam - Bintan!</strong></p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">Mulai dari IDR 1.200.000/hari - Paling Populer!</p>
+                            <p class="text-sm text-gray-500">*Harga dapat bervariasi berdasarkan jarak dan durasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Buses -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Bus</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Untuk kelompok besar dan tur terorganisir dengan tempat duduk yang nyaman dan fasilitas modern.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">Bus Sedang hingga Besar</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>20-50</strong> Penumpang</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span>Penyimpanan yang Cukup</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Bahan Bakar Sudah Termasuk</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-tv text-blue-600 mr-2"></i>
+                                <span>Sistem Hiburan</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal untuk: Kelompok sekolah, acara perusahaan, tur. Bus modern yang dilengkapi dengan pendingin udara, kursi yang bisa direbahkan, dan sistem hiburan untuk perjalanan yang lebih lama.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">Mulai dari IDR 2.500.000/hari</p>
+                            <p class="text-sm text-gray-500">*Harga bervariasi berdasarkan kapasitas dan fasilitas. Hubungi kami untuk penawaran khusus.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1557223562-6c77ef16210f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Jaminan Kualitas Kami</h2>
+                <p class="text-gray-600 mb-12">Kami mempertahankan standar tertinggi untuk semua kendaraan kami untuk memastikan keselamatan dan kenyamanan Anda.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Inspeksi Pra-Perjalanan</h3>
+                        <p class="text-gray-600">Setiap kendaraan menjalani pemeriksaan menyeluruh 25 poin sebelum setiap perjalanan untuk memastikan kinerja dan keselamatan yang optimal.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Perawatan Rutin</h3>
+                        <p class="text-gray-600">Kendaraan kami diservis sesuai jadwal produsen dan menjalani pemeriksaan keselamatan tambahan setiap bulan.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Pembersihan Mendalam</h3>
+                        <p class="text-gray-600">Setiap kendaraan dibersihkan secara profesional dan disanitasi setelah setiap penggunaan, dengan perhatian khusus pada area yang sering disentuh.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Cakupan Asuransi</h3>
+                        <p class="text-gray-600">Semua kendaraan kami diasuransikan secara komprehensif, dan sopir kami dilindungi dengan lisensi mengemudi komersial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold mb-6">Siap Memesan Van Premium Kami?</h2>
+                <p class="text-xl mb-8">Hubungi kami untuk ketersediaan dan penawaran khusus</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Periksa Ketersediaan
+                    </a>
+                    <a href="./contact.html" class="bg-transparent border-2 border-white hover:bg-blue-700 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Minta Penawaran
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">Layanan transportasi profesional di Batam - Bintan.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Tautan Cepat</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">Syarat & Ketentuan</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">Galeri</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Layanan</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">Sewa Mobil</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">Antar Jemput Bandara</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">Tur & Sightseeing</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport. Hak cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>

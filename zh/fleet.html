@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="探索我们在巴淡岛 - 民丹岛的车辆车队。提供紧凑型汽车、MPV、面包车和巴士，配有专业司机。">
+    <title>我们的车队</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-10 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">首页</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">关于我们</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">服务</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">条款和条件</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">画廊</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">联系</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">首页</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">关于我们</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">服务</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">条款和条件</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">画廊</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">联系</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_1.jpeg');"></div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">我们的车辆车队</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">在巴淡岛 - 民丹岛为您所有交通需求提供保养良好的车辆</p>
+        </div>
+    </section>
+
+    <!-- Fleet Introduction -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">您可以信赖的优质车辆</h2>
+                <p class="text-gray-600 text-lg">我们的车队由定期维护的车辆组成，并经过严格的安全检查。每辆车在每次使用后都会进行清洁和消毒，以确保您的舒适和安全。</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">定期维护</h3>
+                    <p class="text-gray-600">所有车辆每月进行维护和安全检查。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">安全第一</h3>
+                    <p class="text-gray-600">全面保险的车辆，配备综合安全设备。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">清洁舒适</h3>
+                    <p class="text-gray-600">每次旅行后清洁和消毒内饰，确保您的健康。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Gallery -->
+    <section id="fleet" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-center mb-12 text-gray-800">探索我们的车辆</h2>
+            
+            <!-- Compact Cars -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">紧凑型汽车</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">非常适合单身旅客、夫妇或小家庭。省油且易于操控。</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_with_tourist_1.jpeg');"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">丰田Avanza / 大发Xenia</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>6-7</strong> 乘客</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>3-4</strong> 大行李箱</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>包含燃油</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>包含停车费</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">理想用途：小家庭、机场接送、城市游览。这些可靠的车辆提供舒适的座椅和充足的行李空间，适合短途旅行。</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">每日起价 IDR 450.000</p>
+                            <p class="text-sm text-gray-500">*价格可能根据距离和时长而变化</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MPVs -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">多功能车 (MPV)</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">空间宽敞舒适，适合较大的团体或有额外行李的家庭。</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">丰田Innova / 三菱Xpander</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>7-8</strong> 乘客</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>5-6</strong> 大行李箱</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>包含燃油</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>包含停车费</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">理想用途：中等家庭、商务团体、观光旅游。额外的腿部空间和行李容量使这些车辆非常适合长途旅行。</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">每日起价 IDR 650.000</p>
+                            <p class="text-sm text-gray-500">*价格可能根据距离和时长而变化</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Vans/Hiace -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">面包车 - 我们的优质选择</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">非常适合一起旅行的团体，为乘客和行李提供充足空间。面包车是我们最受欢迎的舒适团体旅行车辆。</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-5-compressed.jpg');"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">优质面包车 - 我们的旗舰车辆</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>15-18</strong> 乘客</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>10+</strong> 大行李箱</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>包含燃油</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>包含停车费</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">我们的旗舰车辆为团体旅行提供了舒适、空间和可靠性的完美平衡。配备空调、舒适的座椅和充足的行李空间，是机场接送、企业活动和观光旅游的理想选择。<strong>访问巴淡岛 - 民丹岛的团体最受欢迎的选择！</strong></p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">每日起价 IDR 1.200.000 - 最受欢迎！</p>
+                            <p class="text-sm text-gray-500">*价格可能根据距离和时长而变化</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Buses -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">巴士</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">适合大型团体和有组织的旅游，配有舒适的座椅和现代设施。</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">中型到大型巴士</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>20-50</strong> 乘客</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span>充足的存储空间</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>包含燃油</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-tv text-blue-600 mr-2"></i>
+                                <span>娱乐系统</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">理想用途：学校团体、企业活动、旅游。配备空调、可倾斜座椅和娱乐系统的现代巴士，适合长途旅行。</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">每日起价 IDR 2.500.000</p>
+                            <p class="text-sm text-gray-500">*价格根据容量和设施而变化。请联系我们将为您定制报价。</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1557223562-6c77ef16210f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">我们的质量保证</h2>
+                <p class="text-gray-600 mb-12">我们为所有车辆保持最高标准，以确保您的安全和舒适。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">出行前检查</h3>
+                        <p class="text-gray-600">每辆车在每次旅行前都要经过彻底的25项检查，以确保最佳性能和安全。</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">定期保养</h3>
+                        <p class="text-gray-600">我们的车辆按照制造商的时间表进行保养，并每月进行额外的安全检查。</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">深度清洁</h3>
+                        <p class="text-gray-600">每辆车在每次使用后都会进行专业清洁和消毒，特别注意高频接触区域。</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">保险覆盖</h3>
+                        <p class="text-gray-600">我们所有的车辆都投保了全面保险，我们的司机都有商业驾驶执照。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold mb-6">准备预订我们的优质面包车了吗？</h2>
+                <p class="text-xl mb-8">联系我们了解可用性和定制报价</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> 检查可用性
+                    </a>
+                    <a href="./contact.html" class="bg-transparent border-2 border-white hover:bg-blue-700 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        请求报价
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">为巴淡岛 - 民丹岛提供专业交通服务。</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">快速链接</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-white">关于我们</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">条款和条件</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">画廊</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">联系</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">服务</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">汽车租赁</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">机场接送</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">旅游观光</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">联系我们</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport。版权所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>

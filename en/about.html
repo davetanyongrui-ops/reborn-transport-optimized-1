@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Reborn Transport - serving Batam - Bintan with professional drivers and quality vehicles."
+    <title>About Reborn Transport</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center -mt-1">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-14 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Home</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg bg-blue-100 px-3 py-2 rounded-lg">About Us</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Services</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Terms & Conditions</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Home</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200 bg-blue-100">About Us</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Services</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Terms & Conditions</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Gallery</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="../images/toyota-hiace-with-tourist-2-compressed.jpg" alt="Reborn Transport Team" class="w-full h-full object-cover" style="object-position: center center;" loading="lazy">
+        </div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">About Reborn Transport</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">Serving Batam - Bintan with professional transport services</p>
+        </div>
+    </section>
+
+    <!-- Company Story -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Our Story</h2>
+                    <p class="text-gray-600">How we became Batam - Bintan's most trusted transport service provider</p>
+                </div>
+                
+                <div class="flex flex-wrap items-center mb-16" data-aos="fade-up">
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                        <div class="bg-gray-200 rounded-lg h-80 bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-xl font-bold mb-4 text-blue-800">Our Driving Mission</h3>
+                        <p class="text-gray-600 mb-4">Reborn Transport was established with a simple mission: to provide reliable, professional transportation services to residents and visitors of Batam - Bintan.</p>
+                        <p class="text-gray-600 mb-4">What started as a small operation with just three vehicles has grown into one of the region's most trusted transport providers, serving thousands of customers annually.</p>
+                        <p class="text-gray-600">Our commitment to quality service, professional drivers, and well-maintained vehicles has remained unchanged since day one.</p>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap items-center" data-aos="fade-up">
+                    <div class="w-full md:w-1/2 order-2 md:order-1">
+                        <h3 class="text-xl font-bold mb-4 text-blue-800">Today - Your Trusted Partner</h3>
+                        <p class="text-gray-600 mb-4">We now operate a modern fleet of over 30 vehicles, from compact cars to large buses, serving both local residents and international visitors.</p>
+                        <p class="text-gray-600 mb-4">Our team of 25+ professional drivers is trained to the highest standards, with many fluent in English to better serve our international clientele.</p>
+                        <p class="text-gray-600">As a locally-owned business, we understand the unique transportation needs of Batam - Bintan, making us the preferred choice for both short trips and long-term contracts.</p>
+                    </div>
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pl-8 order-1 md:order-2">
+                        <div class="bg-gray-200 rounded-lg h-80 bg-cover bg-center bg-no-repeat" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Why Choose Reborn Transport</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Our commitment to excellence sets us apart from the competition</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Professional Drivers</h3>
+                    <p class="text-gray-600">All our drivers are professionally trained, licensed, and experienced in navigating Batam - Bintan efficiently.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">English Speaking</h3>
+                    <p class="text-gray-600">Communicate easily with our English-speaking staff, essential for international travelers and business clients.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Quality Fleet</h3>
+                    <p class="text-gray-600">Well-maintained vehicles that are regularly serviced to ensure your safety and comfort on every journey.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">24/7 Booking</h3>
+                    <p class="text-gray-600">Book anytime via WhatsApp for immediate confirmation and flexible scheduling that works around your needs.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Complete Coverage</h3>
+                    <p class="text-gray-600">Service throughout Batam - Bintan, ferry terminals, and airport with reliable pickup and drop-off anywhere.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Transparent Pricing</h3>
+                    <p class="text-gray-600">Clear, upfront pricing with no hidden fees. All quotes include driver, fuel, and parking costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+                <p class="text-gray-600">Don't just take our word for it - hear from our satisfied customers</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"Used Reborn Transport for our family vacation and was impressed by the professionalism. The driver was punctual, friendly, and knew all the best spots to visit. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah T.</h4>
+                            <p class="text-gray-600 text-sm">Singapore</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a business traveler, I appreciate the reliability of Reborn Transport. They've never let me down for airport transfers, and their drivers always go the extra mile to ensure I arrive on time."</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Michael R.</h4>
+                            <p class="text-gray-600 text-sm">Corporate Client</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"Booked their van for our company team building trip. Everything went smoothly from booking to the actual trip. The vehicle was clean, comfortable, and the driver was very accommodating to our requests."</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">PT Global Solutions</h4>
+                            <p class="text-gray-600 text-sm">Corporate Event</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Coverage -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold mb-4">Our Service Coverage</h2>
+                <p class="text-blue-100 max-w-3xl mx-auto">We provide transportation services throughout Batam - Bintan</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-blue-700 p-6 rounded-lg" data-aos="fade-up">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-city mr-2"></i> Batam City Areas
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Nagoya & Central Business District</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Sekupang & Industrial Areas</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Batam Centre & Batam Mall</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Batu Ampar & Housing Areas</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Harbour Bay & Resorts</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-700 p-6 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-umbrella-beach mr-2"></i> Other Areas
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Resorts & Lagoi Bay</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Tanjung Pinang City</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Ferry Terminals (Batam Centre, Sekupang)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Hang Nadim Airport</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>Custom destinations upon request</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center bg-gray-50 p-8 rounded-lg" data-aos="fade-up">
+                <h2 class="text-xl font-bold mb-4 text-gray-800">Experience Professional Transport</h2>
+                <p class="text-gray-600 text-xl mb-6">Join thousands of satisfied customers who trust Reborn Transport</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Book Now via WhatsApp
+                    </a>
+                    <a href="./contact.html" class="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">Professional transport services in Batam - Bintan.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">Car Rental</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">Airport Transfers</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">Tours & Sightseeing</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>

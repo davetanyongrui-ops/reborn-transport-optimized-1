@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="了解Reborn Transport - 为巴淡岛 - 民丹岛提供专业司机和优质车辆的交通服务。">
+    <title>关于我们 - Reborn Transport</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center -mt-1">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-14 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">首页</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg bg-blue-100 px-3 py-2 rounded-lg">关于我们</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">服务</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">条款和条件</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">画廊</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">联系</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">首页</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200 bg-blue-100">关于我们</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">服务</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">条款和条件</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">画廊</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">联系</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="../images/toyota-hiace-with-tourist-2-compressed.jpg" alt="Reborn Transport 团队" class="w-full h-full object-cover" style="object-position: center center;">
+        </div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">关于我们</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">为巴淡岛 - 民丹岛提供专业交通服务</p>
+        </div>
+    </section>
+
+    <!-- Company Story -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">我们的故事</h2>
+                    <p class="text-gray-600">我们如何成为巴淡岛 - 民丹岛最值得信赖的交通服务提供商</p>
+                </div>
+                
+                <div class="flex flex-wrap items-center mb-16" data-aos="fade-up">
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                        <div class="bg-gray-200 rounded-lg h-80 bg-cover bg-center bg-no-repeat" style="background-image: url('../images/Toyota_Hiace_with_tourist_1.jpeg');"></div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-xl font-bold mb-4 text-blue-800">我们的驾驶使命</h3>
+                        <p class="text-gray-600 mb-4">Reborn Transport成立时有一个简单的使命：为巴淡岛 - 民丹岛的居民和游客提供可靠、专业的交通服务。</p>
+                        <p class="text-gray-600 mb-4">从仅有三辆车的小型运营开始，已发展成为该地区最值得信赖的交通提供商之一，每年为数千名客户提供服务。</p>
+                        <p class="text-gray-600">我们对优质服务、专业司机和保养良好的车辆的承诺自第一天起就未曾改变。</p>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap items-center" data-aos="fade-up">
+                    <div class="w-full md:w-1/2 order-2 md:order-1">
+                        <h3 class="text-xl font-bold mb-4 text-blue-800">如今 - 您值得信赖的合作伙伴</h3>
+                        <p class="text-gray-600 mb-4">我们现在运营着超过30辆现代化车辆的车队，从小型汽车到大型巴士，为当地居民和国际游客提供服务。</p>
+                        <p class="text-gray-600 mb-4">我们拥有25多名专业司机团队，接受最高标准的培训，其中许多人精通英语，能更好地为国际客户提供服务。</p>
+                        <p class="text-gray-600">作为一家本地企业，我们了解巴淡岛 - 民丹岛独特的交通需求，这使我们成为短期旅行和长期合同的首选。</p>
+                    </div>
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 md:pl-8 order-1 md:order-2">
+                        <div class="bg-gray-200 rounded-lg h-80 bg-cover bg-center bg-no-repeat" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">为什么选择Reborn Transport</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">我们对卓越的承诺使我们与众不同</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">专业司机</h3>
+                    <p class="text-gray-600">我们所有的司机都经过专业培训、持证上岗，并且在高效导航巴淡岛 - 民丹岛方面经验丰富。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">讲英语</h3>
+                    <p class="text-gray-600">轻松与我们讲英语的员工沟通，这对国际旅客和商务客户来说至关重要。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">优质车队</h3>
+                    <p class="text-gray-600">保养良好的车辆定期维护，确保您每次旅行的安全和舒适。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">24/7预订</h3>
+                    <p class="text-gray-600">通过WhatsApp随时预订，即时确认和灵活的安排，满足您的需求。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">全面覆盖</h3>
+                    <p class="text-gray-600">在巴淡岛 - 民丹岛、渡轮码头和机场提供服务，可靠地在任何地方接送。</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">透明定价</h3>
+                    <p class="text-gray-600">价格清晰透明，无隐藏费用。所有报价均已包含司机、燃油和停车费用。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">客户评价</h2>
+                <p class="text-gray-600">不要只听我们说 - 听听我们满意的客户怎么说</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"使用Reborn Transport进行家庭度假，对专业服务印象深刻。司机很准时、友好，知道所有最佳游览地点。强烈推荐！"</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah T.</h4>
+                            <p class="text-gray-600 text-sm">新加坡</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"作为商务旅行者，我很欣赏Reborn Transport的可靠性。他们从未让我在机场接送方面失望过，司机总是尽最大努力确保我准时到达。"</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Michael R.</h4>
+                            <p class="text-gray-600 text-sm">企业客户</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-yellow-400 text-xl mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"为公司团队建设活动预订了他们的面包车。从预订到实际旅行，一切都很顺利。车辆干净舒适，司机对我们要求的响应非常积极。"</p>
+                    <div class="flex items-center">
+                        <div class="bg-gray-300 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">PT Global Solutions</h4>
+                            <p class="text-gray-600 text-sm">企业活动</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Coverage -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">我们的服务覆盖范围</h2>
+                <p class="text-blue-100 max-w-3xl mx-auto">我们在整个巴淡岛 - 民丹岛提供交通服务</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-blue-700 p-6 rounded-lg" data-aos="fade-up">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-city mr-2"></i> 巴淡市区域
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>纳戈亚和中央商务区</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>塞库庞和工业区</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>巴淡中心和巴淡购物中心</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>巴图安帕尔和住宅区</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>哈伯湾和度假村</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-700 p-6 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-umbrella-beach mr-2"></i> 其他区域
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>度假村和拉戈湾</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>丹戎槟榔市</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>渡轮码头（巴淡中心、塞库庞）</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>韩那丁机场</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-green-300 mr-2"></i>
+                            <span>应要求的自定义目的地</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center bg-gray-50 p-8 rounded-lg" data-aos="fade-up">
+                <h2 class="text-xl font-bold mb-4 text-gray-800">体验专业交通服务</h2>
+                <p class="text-gray-600 text-xl mb-6">加入数千名信任Reborn Transport的满意客户</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> 通过WhatsApp立即预订
+                    </a>
+                    <a href="./contact.html" class="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">为巴淡岛 - 民丹岛提供专业交通服务。</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">快速链接</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">关于我们</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">条款和条件</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">画廊</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">联系</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">服务</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">汽车租赁</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">机场接送</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">旅游观光</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">联系我们</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport。版权所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>

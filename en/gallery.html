@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View our gallery of vehicles, drivers, and customer experiences with Reborn Transport in Batam."
+    <title>Gallery</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center -mt-1">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-14 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Home</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">About Us</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Services</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Terms & Conditions</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg bg-blue-100 px-3 py-2 rounded-lg">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Home</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">About Us</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Services</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Terms & Conditions</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200 bg-blue-100">Gallery</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="../images/toyota-hiace-with-tourist-4-compressed.jpg" alt="Reborn Transport Gallery" class="w-full h-full object-cover" style="object-position: center 60%;">
+        </div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">Our Gallery</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">Explore our fleet of vehicles, meet our team, and see what our customers experience</p>
+        </div>
+    </section>
+
+    <!-- Gallery Introduction -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Capturing Moments on the Road</h2>
+                <p class="text-gray-600 text-lg">From our pristine vehicles to happy customers, our gallery showcases the quality and professionalism of Reborn Transport services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Our Vehicle Fleet</h2>
+                <p class="text-gray-600">Well-maintained vehicles ready to serve you</p>
+            </div>
+            
+            <div id="fleet-gallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+                <!-- New car images -->
+                <div class="gallery-item block group" data-src="../images/Toyota Alphard 1.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota Alphard 1.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota Fortuner.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota Fortuner.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Innova Zenix.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Innova Zenix.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/New Avanza.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/New Avanza.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/New Xenia.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/New Xenia.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota Hiace.webp" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota Hiace.webp');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Reborn Transport images -->
+                <div class="gallery-item block group" data-src="../images/Toyota_Hiace_with_tourist_1.jpeg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota_Hiace_with_tourist_1.jpeg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/toyota-hiace-with-tourist-2-compressed.jpg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota_Hiace_with_tourist_3.jpeg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota_Hiace_with_tourist_3.jpeg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/toyota-hiace-with-tourist-4-compressed.jpg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/toyota-hiace-with-tourist-4-compressed.jpg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/toyota-hiace-with-tourist-5-compressed.jpg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/toyota-hiace-with-tourist-5-compressed.jpg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota_Hiace_1.jpeg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota_Hiace_1.jpeg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota_Hiace_2.jpeg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota_Hiace_2.jpeg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item block group" data-src="../images/Toyota_Hiace_3.jpeg" data-lg-size="1600-1200">
+                    <div class="relative overflow-hidden rounded-lg shadow-md h-80">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" style="background-image: url('../images/Toyota_Hiace_3.jpeg');"></div>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <i class="fas fa-search-plus text-white text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Social Media Feed -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Follow Our Journey</h2>
+                <p class="text-gray-600">Stay updated with our latest activities and customer experiences</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 text-5xl mb-6">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Follow Us on Instagram</h3>
+                    <p class="text-gray-600 mb-6">For real-time updates, behind-the-scenes content, and customer highlights, follow our Instagram account.</p>
+                    <p class="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 px-6 rounded-lg inline-block">
+                        <i class="fab fa-instagram mr-2"></i> @reborntransport
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold mb-6">Experience Our Professional Service</h2>
+                <p class="text-xl mb-8">Book your journey with Reborn Transport today</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Book via WhatsApp
+                    </a>
+                    <a href="./contact.html" class="bg-transparent border-2 border-white hover:bg-blue-700 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Get a Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">Professional transport services in Batam - Bintan.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">Car Rental</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">Airport Transfers</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">Tours & Sightseeing</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.umd.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+        
+        // Initialize lightgallery for fleet gallery
+        lightGallery(document.getElementById('fleet-gallery'), {
+            thumbnail: true,
+            animateThumb: false,
+            zoomFromOrigin: false,
+            allowMediaOverlap: true,
+            toggleThumb: true,
+            selector: '.gallery-item',
+            exThumbImage: 'data-src'
+        });
+    </script>
+</body>
+</html>

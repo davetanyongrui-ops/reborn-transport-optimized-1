@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi Reborn Transport untuk sewa mobil dengan sopir yang andal di Batam - Bintan. Pesan via WhatsApp atau dapatkan penawaran."
+    <title>Hubungi Reborn Transport</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center -mt-1">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-14 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Beranda</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Tentang Kami</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Layanan</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Syarat & Ketentuan</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Galeri</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg bg-blue-100 px-3 py-2 rounded-lg">Kontak</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Beranda</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Tentang Kami</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Layanan</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Syarat & Ketentuan</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Galeri</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200 bg-blue-100">Kontak</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="../images/toyota-hiace-remix-3-compressed.jpg" alt="Kontak Reborn Transport" class="w-full h-full object-cover" style="object-position: center center;">
+        </div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-10"></div>
+        <div class="container mx-auto px-4 relative z-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">Kontak Reborn Transport</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">Hubungi kami untuk pemesanan, penawaran, atau pertanyaan apa pun</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Hubungi Kami</h2>
+                    <p class="text-gray-600">Kami di sini untuk membantu semua kebutuhan transportasi Anda di Batam - Bintan</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                    <div class="bg-white p-8 rounded-lg shadow-md" data-aos="fade-up">
+                        <h3 class="text-2xl font-bold mb-6 text-gray-800">Informasi Kontak</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="text-blue-600 text-2xl mr-4 mt-1">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-1">Kantor Kami</h4>
+                                    <p class="text-gray-600">Perum Maya Villa Blok N. 25 Tiban - Batam</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="text-blue-600 text-2xl mr-4">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-1">WhatsApp</h4>
+                                    <p class="text-gray-600">
+                                        <a href="https://wa.me/6282279036346" class="text-blue-600 hover:underline">+62 82279036346</a>
+                                    </p>
+                                    <p class="text-gray-500 text-sm">Tersedia 24/7 untuk pemesanan dan pertanyaan</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="text-blue-600 text-2xl mr-4">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-1">Telepon</h4>
+                                    <p class="text-gray-600">+62 82279036346</p>
+                                    <p class="text-gray-500 text-sm">Senin - Jumat: 8:00 AM - 8:00 PM<br>Sabtu - Minggu: 9:00 AM - 6:00 PM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="text-blue-600 text-2xl mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-1">Email</h4>
+                                    <p class="text-gray-600">
+                                        <a href="mailto:cvreborntransport@gmail.com" class="text-blue-600 hover:underline">cvreborntransport@gmail.com</a>
+                                    </p>
+                                    <p class="text-gray-500 text-sm">Kami akan merespons dalam 2 jam selama jam kerja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-2xl font-bold mb-6 text-gray-800">Jam Kantor</h3>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-medium">Senin - Jumat</span>
+                                <span class="text-gray-600">8:00 AM - 8:00 PM</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-medium">Sabtu</span>
+                                <span class="text-gray-600">9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-medium">Minggu</span>
+                                <span class="text-gray-600">9:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-2">
+                                <span class="font-medium">Hari Libur Nasional</span>
+                                <span class="text-gray-600">9:00 AM - 2:00 PM</span>
+                            </div>
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold mb-6 text-gray-800">Cakupan Layanan</h3>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <p class="text-gray-700"><i class="fas fa-info-circle text-blue-600 mr-2"></i> Kami menyediakan layanan transportasi di seluruh Batam - Bintan, termasuk antar jemput bandara dan terminal ferry.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden" data-aos="fade-up">
+                    <div class="h-96 relative">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7345927721447!2d104.03051000000000!3d1.045680000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d971a4a4a4a4a4%3A0x71b1b1b1b1b1b1b1!2s4X36%2BPM2%2C+Tiban+Baru%2C+Sekupang%2C+Batam+City%2C+Riau+Islands+29424!5e0!3m2!1sen!2sid!4v1698765432109!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="absolute bottom-0 left-0 bg-blue-600 text-white p-4 m-4 rounded shadow">
+                            <h4 class="font-bold text-lg">Kantor Reborn Transport</h4>
+                            <p class="text-white">Perum Maya Villa Blok N. 25 Tiban - Batam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Pesan Perjalanan Anda</h2>
+                    <p class="text-gray-600">Pilih metode yang Anda sukai untuk memesan layanan kami</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center" data-aos="fade-up">
+                        <div class="text-blue-600 text-4xl mb-4">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Pemesanan WhatsApp</h3>
+                        <p class="text-gray-600 mb-4">Cara tercepat untuk memesan. Dapatkan konfirmasi instan dan dukungan 24/7.</p>
+                        <a href="https://wa.me/6282279036346" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 inline-flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i> Chat Sekarang
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-blue-600 text-4xl mb-4">
+                            <i class="fas fa-file-invoice"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Dapatkan Penawaran</h3>
+                        <p class="text-gray-600 mb-4">Minta penawaran khusus untuk kebutuhan transportasi Anda yang spesifik.</p>
+                        <a href="#quote-form" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
+                            Minta Penawaran
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-blue-600 text-4xl mb-4">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3">Hubungi Kami</h3>
+                        <p class="text-gray-600 mb-4">Berbicara langsung dengan tim pemesanan kami selama jam kerja.</p>
+                        <a href="tel:+6282279036346" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-300 inline-flex items-center">
+                            <i class="fas fa-phone mr-2"></i> +62 82279036346
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Request Form -->
+    <section id="quote-form" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md" data-aos="fade-up">
+                <h2 class="text-xl font-bold text-center mb-8 text-gray-800">Minta Penawaran</h2>
+                
+                <form id="quoteForm" action="https://formspree.io/f/myzbnlrk" method="POST">
+                    <input type="hidden" name="_next" value="http://localhost:3002/id/contact.html">
+                    <input type="hidden" name="_subject" value="New Quote Request from Reborn Transport Website">
+                    <input type="text" name="_gotcha" style="display:none">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Nama lengkap Anda" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="email">Alamat Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="email.anda@contoh.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="+1 (555) 123-4567" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="service">Jenis Layanan</label>
+                            <select id="service" name="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                                <option value="">Pilih layanan</option>
+                                <option value="rental">Sewa Mobil dengan Sopir</option>
+                                <option value="transfer">Antar Jemput Bandara/Ferry</option>
+                                <option value="corporate">Perjalanan Bisnis</option>
+                                <option value="tour">Tur & Sightseeing</option>
+                                <option value="charter">Bus/Van Charter</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="pickup">Lokasi Penjemputan</label>
+                            <input type="text" id="pickup" name="pickup" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Di mana kami akan menjemput Anda?" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="dropoff">Lokasi Tujuan</label>
+                            <input type="text" id="dropoff" name="dropoff" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Mau ke mana?" required>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="date">Tanggal</label>
+                            <input type="date" id="date" name="date" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-bold mb-2" for="time">Waktu</label>
+                            <input type="time" id="time" name="time" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2" for="passengers">Jumlah Penumpang</label>
+                        <input type="number" id="passengers" name="passengers" min="1" max="50" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Berapa orang?" required>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2" for="message">Informasi Tambahan</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Permintaan khusus, detail penerbangan, dll." required></textarea>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="flex items-center">
+                            <input type="checkbox" id="terms" name="terms" class="form-checkbox h-5 w-5 text-blue-600" required>
+                            <span class="ml-2 text-gray-700">Saya setuju dengan <a href="#" class="text-blue-600 hover:underline">Syarat & Ketentuan</a></span>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                        Minta Penawaran
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Pertanyaan yang Sering Diajukan</h2>
+                    <p class="text-gray-600">Temukan jawaban untuk pertanyaan umum tentang layanan kami</p>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="faq-item border border-gray-200 rounded-lg" data-aos="fade-up">
+                        <button class="faq-question w-full flex justify-between items-center p-6 text-left">
+                            <span class="font-bold text-lg">Apakah harga sudah termasuk sopir dan bahan bakar?</span>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-600">Ya, semua harga kami sudah termasuk sopir profesional dan bahan bakar. Tidak ada biaya tersembunyi. Untuk perjalanan yang lebih lama, biaya makan dan akomodasi sopir mungkin berlaku dan akan ditentukan dalam penawaran Anda. Untuk informasi harga terperinci yang disesuaikan dengan kebutuhan Anda, silakan <a href="https://wa.me/6282279036346" class="text-blue-600 hover:underline font-medium">hubungi kami via WhatsApp</a>.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item border border-gray-200 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq-question w-full flex justify-between items-center p-6 text-left">
+                            <span class="font-bold text-lg">Bisakah saya dijemput di terminal ferry atau bandara?</span>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-600">Tentu saja! Kami mengkhususkan diri dalam antar jemput bandara dan terminal ferry. Sopir kami akan menemui Anda dengan papan nama di titik kedatangan Anda dan membantu dengan bagasi Anda. Cukup berikan detail penerbangan atau ferry Anda saat memesan.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item border border-gray-200 rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq-question w-full flex justify-between items-center p-6 text-left">
+                            <span class="font-bold text-lg">Jam operasional Anda?</span>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-600">Kami beroperasi 7 hari seminggu dengan jam berikut: Senin-Jumat 8:00 AM - 8:00 PM, Sabtu-Minggu 9:00 AM - 6:00 PM, dan Hari Libur Nasional 9:00 AM - 2:00 PM. Untuk pemesanan mendesak di luar jam ini, silakan hubungi kami via WhatsApp.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item border border-gray-200 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq-question w-full flex justify-between items-center p-6 text-left">
+                            <span class="font-bold text-lg">Bagaimana jika perjalanan saya diperpanjang?</span>
+                            <i class="fas fa-chevron-down text-blue-600"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-600">Jika perjalanan Anda melampaui waktu yang dipesan, biaya tambahan akan berlaku sesuai tarif per jam standar kami. Kami akan memberi tahu Anda tentang biaya tambahan sebelum dikenakan. Untuk perubahan besar, kami mungkin perlu menyesuaikan pemesanan dan memberikan penawaran baru.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold mb-6">Siap Memesan Perjalanan Anda?</h2>
+                <p class="text-xl mb-8">Hubungi kami untuk pemesanan instan atau penawaran khusus</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Pesan via WhatsApp
+                    </a>
+                    <a href="#quote-form" class="bg-transparent border-2 border-white hover:bg-blue-700 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Dapatkan Penawaran
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">Layanan transport profesional di Batam - Bintan.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Tautan Cepat</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">Syarat & Ketentuan</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">Galeri</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Layanan</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">Sewa Mobil</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">Antar Jemput Bandara</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">Tur & Sightseeing</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport. Hak cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>

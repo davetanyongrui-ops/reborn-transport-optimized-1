@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our fleet of vehicles for rent in Batam - Bintan. Compact cars, MPVs, vans, and buses available with professional drivers."
+    <title>Our Fleet</title>
+    <link rel="icon" type="image/x-icon" href="../images/Reborn Transport LOGO.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <!-- Header -->
+    <header class="bg-white bg-opacity-90 backdrop-blur-lg sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center -mt-1">
+                    <img src="../images/logo.jpg" alt="Reborn Transport Logo" class="h-14 w-auto">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4">
+                        <li><a href="./" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Home</a></li>
+                        <li><a href="./about.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">About Us</a></li>
+                        <li><a href="./services.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Services</a></li>
+                        <li><a href="./terms.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Terms & Conditions</a></li>
+                        <li><a href="./gallery.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-800 hover:text-blue-600 font-bold text-lg px-3 py-2 rounded-lg">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center space-x-2 language-switcher">
+                    <a href="#" data-lang="en" class="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium md:px-3 md:py-1">EN</a>
+                    <a href="#" data-lang="id" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">ID</a>
+                    <a href="#" data-lang="zh" class="bg-gray-200 text-gray-800 px-2 py-1 rounded text-sm font-medium hover:bg-gray-300 md:px-3 md:py-1">中文</a>
+                    <button id="mobile-menu-button" class="md:hidden text-gray-800 p-1 -mr-1">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg fixed top-20 left-0 w-full z-50">
+        <ul class="py-2 px-2 space-y-1">
+            <li><a href="./" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Home</a></li>
+            <li><a href="./about.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">About Us</a></li>
+            <li><a href="./services.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Services</a></li>
+            <li><a href="./terms.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Terms & Conditions</a></li>
+            <li><a href="./gallery.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Gallery</a></li>
+            <li><a href="./contact.html" class="block text-gray-800 hover:text-blue-600 font-bold text-lg py-3 px-4 rounded-lg transition duration-200">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_1.jpeg');"></div>
+        <div class="absolute inset-0 bg-gray-900 opacity-30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-2xl" data-aos="fade-up">Our Vehicle Fleet</h1>
+            <p class="text-2xl text-white max-w-3xl mx-auto drop-shadow-2xl font-medium" data-aos="fade-up" data-aos-delay="200">Well-maintained vehicles for all your transportation needs in Batam - Bintan</p>
+        </div>
+    </section>
+
+    <!-- Fleet Introduction -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Quality Vehicles You Can Trust</h2>
+                <p class="text-gray-600 text-lg">Our fleet consists of regularly maintained vehicles that undergo rigorous safety checks. Each vehicle is cleaned and sanitized after every use to ensure your comfort and safety.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Regular Maintenance</h3>
+                    <p class="text-gray-600">All vehicles undergo monthly servicing and safety inspections.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Safety First</h3>
+                    <p class="text-gray-600">Fully insured vehicles with comprehensive safety equipment.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Clean & Comfortable</h3>
+                    <p class="text-gray-600">Interior cleaned and sanitized after every trip for your health.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Gallery -->
+    <section id="fleet" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-center mb-12 text-gray-800">Explore Our Vehicles</h2>
+            
+            <!-- Compact Cars -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Compact Cars</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Perfect for solo travelers, couples, or small families. Fuel-efficient and easy to maneuver.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/Toyota_Hiace_with_tourist_1.jpeg');"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">Toyota Avanza / Daihatsu Xenia</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>6-7</strong> Passengers</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>3-4</strong> Large Bags</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Fuel Included</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parking Included</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal for: Small families, airport transfers, city tours. These reliable vehicles offer comfortable seating and ample luggage space for short trips.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">From IDR 450,000/day</p>
+                            <p class="text-sm text-gray-500">*Price may vary based on distance and duration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- MPVs -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Multi-Purpose Vehicles (MPVs)</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Spacious and comfortable for larger groups or families with extra luggage.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">Toyota Innova / Mitsubishi Xpander</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>7-8</strong> Passengers</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>5-6</strong> Large Bags</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Fuel Included</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parking Included</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal for: Medium-sized families, business groups, sightseeing tours. Extra legroom and luggage capacity make these vehicles perfect for longer journeys.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">From IDR 650,000/day</p>
+                            <p class="text-sm text-gray-500">*Price may vary based on distance and duration</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-2-compressed.jpg');" loading="lazy"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Vans/Hiace -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Vans - Our Premium Choice</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Perfect for groups traveling together with plenty of space for passengers and luggage. Our vans are the most popular vehicle for comfortable group travel.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('../images/toyota-hiace-with-tourist-5-compressed.jpg');" loading="lazy"></div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-2xl font-bold mb-4">Premium Van - Our Flagship Vehicle</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>15-18</strong> Passengers</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span><strong>10+</strong> Large Bags</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Fuel Included</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-parking text-blue-600 mr-2"></i>
+                                <span>Parking Included</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Our flagship vehicle offers the perfect balance of comfort, space, and reliability for group travel. With air conditioning, comfortable seating, and ample luggage space, it's ideal for airport transfers, corporate events, and sightseeing tours. <strong>Most popular choice for groups visiting Batam - Bintan!</strong></p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">From IDR 1,200,000/day - Most Popular!</p>
+                            <p class="text-sm text-gray-500">*Price may vary based on distance and duration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Buses -->
+            <div class="mb-16" data-aos="fade-up">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-blue-800 mb-2">Buses</h3>
+                    <p class="text-gray-600 max-w-2xl mx-auto">For large groups and organized tours with comfortable seating and modern amenities.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h4 class="text-2xl font-bold mb-4">Medium to Large Buses</h4>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="flex items-center">
+                                <i class="fas fa-users text-blue-600 mr-2"></i>
+                                <span><strong>20-50</strong> Passengers</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-suitcase text-blue-600 mr-2"></i>
+                                <span>Ample Storage</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-gas-pump text-blue-600 mr-2"></i>
+                                <span>Fuel Included</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-tv text-blue-600 mr-2"></i>
+                                <span>Entertainment System</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Ideal for: School groups, corporate events, tours. Modern buses equipped with air conditioning, reclining seats, and entertainment systems for longer journeys.</p>
+                        <div class="mt-auto">
+                            <p class="text-lg font-bold text-blue-700">From IDR 2,500,000/day</p>
+                            <p class="text-sm text-gray-500">*Price varies based on capacity and amenities. Contact us for a custom quote.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg overflow-hidden order-1 md:order-2">
+                        <div class="h-64 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1557223562-6c77ef16210f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Assurance -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Our Quality Guarantee</h2>
+                <p class="text-gray-600 mb-12">We maintain the highest standards for all our vehicles to ensure your safety and comfort.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Pre-Trip Inspection</h3>
+                        <p class="text-gray-600">Every vehicle undergoes a thorough 25-point inspection before each trip to ensure optimal performance and safety.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Regular Servicing</h3>
+                        <p class="text-gray-600">Our vehicles are serviced according to manufacturer schedules and undergo additional safety checks monthly.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Deep Cleaning</h3>
+                        <p class="text-gray-600">Each vehicle is professionally cleaned and sanitized after every use, with special attention to high-touch areas.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-blue-600 text-3xl mb-4">
+                            <i class="fas fa-car-crash"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Insurance Coverage</h3>
+                        <p class="text-gray-600">All our vehicles are comprehensively insured, and our drivers are covered with commercial driving licenses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-xl font-bold mb-6">Ready to Book Our Premium Van?</h2>
+                <p class="text-xl mb-8">Get in touch with us for availability and customized quotes</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/6282279036346" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center">
+                        <i class="fab fa-whatsapp mr-2 text-2xl"></i> Check Availability
+                    </a>
+                    <a href="./contact.html" class="bg-transparent border-2 border-white hover:bg-blue-700 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Request Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Reborn Transport</h3>
+                    <p class="text-gray-400">Professional transport services in Batam - Bintan.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="./about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./terms.html" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+                        <li><a href="./gallery.html" class="text-gray-400 hover:text-white">Gallery</a></li>
+                        <li><a href="./contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#rental" class="text-gray-400 hover:text-white">Car Rental</a></li>
+                        <li><a href="services.html#transfers" class="text-gray-400 hover:text-white">Airport Transfers</a></li>
+                        <li><a href="services.html#tours" class="text-gray-400 hover:text-white">Tours & Sightseeing</a></li>
+
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>Perum Maya Villa Blok N. 25 Tiban - Batam</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            <span>+62 82279036346</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>cvreborntransport@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Reborn Transport. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        // Delay AOS initialization to prevent header layout shifts
+        setTimeout(function() {
+            AOS.init({
+                duration: 600,
+                once: true,
+            });
+        }, 100);
+    </script>
+</body>
+</html>
